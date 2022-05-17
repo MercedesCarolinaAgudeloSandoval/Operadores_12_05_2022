@@ -198,7 +198,7 @@ document.querySelector("#restoA").insertAdjacentHTML("beforeend", `
 
 let i = 10;
 let j = 3;
-let resExp = i % j;
+let resExp = i ** j;
 
 let selExp= document.querySelectorAll("#restoExp em");
 selExp[0].insertAdjacentText("beforeend", i);
